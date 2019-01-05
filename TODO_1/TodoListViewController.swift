@@ -10,7 +10,7 @@ import UIKit
 
 class TodoListViewController: UITableViewController {
 
-    let var itemArray = ["购买水杯","吃药","修改密码"]
+    var itemArray = ["购买水杯","吃药","修改密码"]
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ToDoItemCell", for:indexPath)
